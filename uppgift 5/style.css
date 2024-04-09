@@ -1,0 +1,16 @@
+.parent-div{
+    background-color: rgb(109, 94, 94);
+    padding: 1rem;
+}
+.child-one{
+    background-color: rgb(215, 212, 8);
+    padding: 1px;
+}
+.child-two{
+    background-color: rgb(252, 0, 0);
+    padding: 1px;
+}
+.child-three{
+    background-color: rgb(20, 70, 177);
+    padding: 1px;
+}
