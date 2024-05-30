@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="form.css">
+    <script src="/M2.2/hamburger.js" defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulär</title>
+</head>
+<body>
+    <header class="formulär-header">
+        <div class="top-header-left">
+            <li class="li-m2-text"><h1><a class="nav-link-m2-text" href="../Portfolio.html">M2</a></h1></li>
+        </div>
+            <nav>
+                <ul class="primary-navigation">
+                    <li><a class="nav-link" href="/2.2.html"></a></li>
+                    <li><a class="nav-link" href="uppgift6.html">grunderna</a></li>
+                    <li><a class="nav-link" href="/historia.html">Historia</a></li>
+                    <li><a class="nav-link" href="#">Formulär</a></li>
+                    
+                </ul>
+                <button class="hamburger-button" id="hamburger-button" aria-label="hamburger-button" aria-expanded="false">
+                    <svg fill="white" class="icon-hamburger" viewbox="0 0 100 100" width="32">
+                        <rect class="line top" width="90" height="10" x="10" y="20" rx="5"></rect>
+                        <rect class="line middle" width="90" height="10" x="10" y="45" rx="5"></rect>
+                        <rect class="line bottom" width="90" height="10" x="10" y="70" rx="5"></rect>
+                    </svg>
+                </button>
+            </nav>
+    </header>
+
+    <main class="form">
+        <form action="https://formsubmit.co/leo.halldevall@elev.ga.ntig.se" method="post">
+            <label for="name">Namn</label><br>
+            <input class="text-input" type="name" name="name"><br><br>
+            <label for="business">Företag</label><br>
+            <input class="text-input" id="business" name="lname"><br><br>
+            <label for="email">E-mail</label><br>
+            <input class="text-input"type="email" name="E-mail"><br><br>
+
+            <label cor="textarea-label" for="message">Meddelande</label><br>
+            <textarea name="Message" id="message" placeholder="Meddelande"></textarea><br>
+
+            <button type="reset">Återställ Formulär</button>
+            <button type="submit">Skicka nu</button>
+        </form>
+    </main>
+<body>
+</html>
